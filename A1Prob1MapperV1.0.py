@@ -41,5 +41,5 @@ try:
 
 finally:
 # Ensure all files are closed
- outputfile.close()
- inputfile.close()
+ outputFile.close()
+ inputFile.close()
