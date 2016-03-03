@@ -18,7 +18,7 @@ alphaChar = { "a":0,  "b":1 , "c":2 , "d":3 , "e":4 , "f":5 , "g":6 , "h":7 ,
               "x":23, "y":24, "z":25 }
 
 
-#Initializing lists and strings 
+#Initializing lists and strings  
 
 charCount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 letter    = 0
