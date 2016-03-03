@@ -12,7 +12,7 @@ This program does the following:-
 
 #Defining a dictionary containing each letter of the alphabet
 
-alphachar = { "a":0,  "b":1 , "c":2 , "d":3 , "e":4 , "f":5 , "g":6 , "h":7 ,
+alphaChar = { "a":0,  "b":1 , "c":2 , "d":3 , "e":4 , "f":5 , "g":6 , "h":7 ,
               "i":8,  "j":9 , "k":10, "l":11, "m":12, "n":13, "o":14, "p":15,
               "q":16, "r":17, "s":18, "t":19, "u":20, "v":21, "w":22,
               "x":23, "y":24, "z":25 }
@@ -20,24 +20,24 @@ alphachar = { "a":0,  "b":1 , "c":2 , "d":3 , "e":4 , "f":5 , "g":6 , "h":7 ,
 
 #Initializing lists and strings 
 
-charcount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+charCount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 letter    = 0
 
 #Opening and reading input file
 
-inputfile = open("inputfile_small.txt", "r")
-intext    = inputfile.read()
+inputFile = open("inputfile_small.txt", "r")
+inText    = inputFile.read()
 
 try:
- for letter in range(len(intext)):
-    if intext[letter].lower() in "abcdefghijklmnopqrstuvwxyz":
-       charcount[alphachar[intext[letter].lower()]] += 1         
+ for letter in range(len(inText)):
+    if inText[letter].lower() in "abcdefghijklmnopqrstuvwxyz":
+       charCount[alphaChar[inText[letter].lower()]] += 1         
 
 
- outputfile = open("outputfile.txt", "w")
- finalcount = str(charcount)
- print(finalcount)
- outputfile.write(finalcount)
+ outputFile = open("outputfile.txt", "w")
+ finalCount = str(charCount)
+ print(finalCount)
+ outputFile.write(finalCount)
 
 finally:
 # Ensure all files are closed
