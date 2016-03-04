@@ -1,0 +1,4 @@
+ACG  -  User3 User5
+ACGT  -  User1 User4
+AGCT  -  User6
+TGCA - User2
