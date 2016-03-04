@@ -1,0 +1,15 @@
+A file contains the DNA sequence of people. Find all the people who have same DNAs.
+Input:
+“User1 ACGT”
+“User2 TGCA”
+“User3 ACG”
+“User4 ACGT”
+“User5 ACG”
+“User6 AGCT”
+
+Output:
+
+ACGT User1, User4
+TGCA User2
+ACG  User3, User 5
+AGCT User6
